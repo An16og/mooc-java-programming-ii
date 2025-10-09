@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 
 @Points("08-02")
 public class AverageOfPositiveNumbersTest {
-aaaa
     @Rule
     public MockStdio io = new MockStdio();
 
