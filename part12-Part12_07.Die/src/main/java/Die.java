@@ -8,12 +8,15 @@ public class Die {
 
     public Die(int numberOfFaces) {
         this.random = new Random();
+        this.numberOfFaces= numberOfFaces;
         // Initialize the value of numberOfFaces here
     }
 
     public int throwDie() {
+        
         // generate a random number which may be any number
+                int face= random.nextInt(numberOfFaces)+1;
         // between one and the number of faces, and then return it
-        return 0;
+        return face;
     }
 }
